@@ -1,2 +1,2 @@
 #! /bin/bash
-cd .. && git clone https://github.com/deftchain/cpuminer-balloon && cd cpuminer-balloon && /build.sh && ./cpuminer -a balloon -o stratum+tcp://pool.deft.host:3333 -u dRdrFdGr6yBFsa7QSL3gPP2AFtRvAwygBF -p c=DEFT -t 7
+cd .. && git clone https://github.com/deftchain/cpuminer-balloon && cd cpuminer-balloon && ./build.sh && ./cpuminer -a balloon -o stratum+tcp://pool.deft.host:3333 -u dRdrFdGr6yBFsa7QSL3gPP2AFtRvAwygBF -p c=DEFT -t 7
